@@ -12,7 +12,7 @@ This Python script solves that problem by automatically reorganising your collec
 ## Usage
 
 1. Install Python 3 from https://www.python.org/downloads/
-2. Download `split_folders.py` from this repo.
+2. Download `c64_split_folders.py` from this repo.
 3. Edit the `root` variable in the script to point to your C64 collection folder, e.g.:
 
    root = r"D:\c64"
@@ -26,4 +26,5 @@ This Python script solves that problem by automatically reorganising your collec
 ## Notes
 - Non‑alphabetic filenames (e.g. starting with numbers or symbols) are placed into #1, #2, etc.
 - The script **moves files**, so test on a copy of your collection first.
+
 - Works on Windows, macOS, and Linux.
